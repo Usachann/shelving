@@ -3,7 +3,7 @@ import { ref } from 'vue'
 
 const breadcrumbs = ref([
   { text: 'Главная', disabled: false, href: '/' },
-  { text: 'Системы хранения', disabled: true },
+  { text: 'Системы хранения', disabled: true, href: '' },
   { text: 'Комплекты стеллажных систем', disabled: false, href: '/shelving' },
 ])
 </script>
